@@ -1,0 +1,27 @@
+/* Header */
+.header-container{
+  margin: auto;
+  display: flex;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: bisque;
+  justify-content: space-between;
+}
+
+.header-container div{
+    padding: 20px;
+}
+
+.box-1{
+  flex: 2;
+  padding: 10px;
+}
+
+.text-container{
+  margin: auto;
+  padding: 100px;
+  background-color: aqua;
+  text-align: center;
+}
