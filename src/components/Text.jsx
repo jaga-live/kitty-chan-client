@@ -44,8 +44,8 @@ const Text = () => {
   return (
     <div className="text-container">
       <form>
-        <input type="text" value={text} onChange={handleTextChange}></input>
-        <button onClick={handleSubmit}>Send</button>
+        <textarea type="textarea" value={text} onChange={handleTextChange} className='input-box'></textarea>
+        <button onClick={handleSubmit} className='send-button'>Send</button>
       </form>
     </div>
   );

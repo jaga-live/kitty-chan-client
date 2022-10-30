@@ -14,6 +14,11 @@
     padding: 20px;
 }
 
+.link{
+  text-decoration: none;
+  color: black;
+}
+
 .box-1{
   flex: 2;
   padding: 10px;
@@ -21,7 +26,53 @@
 
 .text-container{
   margin: auto;
-  padding: 100px;
-  background-color: aqua;
+  padding: 50px;
   text-align: center;
+}
+
+/* Text Search */
+.input-box{
+  background-color: rgb(217, 217, 224);
+  border: none;
+  border-radius: 25px;
+  height: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+.send-button{
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  width: 100px;
+  margin-left: 20px;
+  color: blue;
+}
+
+
+/* Dashboard */
+.dashboard-container{
+  background-color: bisque;
+  margin: auto;
+  padding: 30px;
+  width: 60%;
+}
+
+.card-container{
+  background-color: rgb(185, 216, 168);
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px ;
+  display: flex;
+  align-items: center;
+  
+}
+
+.image{
+  flex: 1;
+}
+.name{
+  flex: 8;
+}
+.count{
+  flex: 0;
 }
